@@ -1,0 +1,24 @@
+{
+  "name": "ecomm-vanilla-javascript",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thao15059/ecomm-vanilla-javascript.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thao15059/ecomm-vanilla-javascript/issues"
+  },
+  "homepage": "https://github.com/thao15059/ecomm-vanilla-javascript#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nodemon": "^2.0.12"
+  }
+}
