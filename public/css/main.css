@@ -50,7 +50,6 @@ body {
 .navbar-bottom .container.navbar-container {
   display: flex;
   justify-content: space-between;
-  padding: 0px 5%;
   align-items: center;
 }
 
@@ -72,7 +71,7 @@ body {
 }
 
 .admin > div.container {
-  margin: 40px 10%;
+  margin: 40px auto;
 }
 
 .admin .control {
