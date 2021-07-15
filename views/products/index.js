@@ -6,11 +6,11 @@ module.exports = ({ products }) => {
       return `
         <div class="column is-one-quarter">
           <div class="card product-card">
-            <div class="card-image-wrapper">
-              <img src="data:image/png;base64, ${product.image}"/>
-            </div>
+            <figure class="image is-square">
+            <img src="data:image/png;base64, ${product.image}"/>
+            </figure>
             <div class="card-content">
-              <h3 class="subtitle">${product.title}</h3>
+              <h3 class="subtitle is-6 is-fullheigh">${product.title}</h3>
               <h5>$${product.price}</h5>
             </div>
             <footer class="card-footer">
