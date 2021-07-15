@@ -59,6 +59,14 @@ module.exports = ({ content }) => {
         </header>
 
         ${content}
+
+        <footer class="footer">
+          <div class="content has-text-centered">
+            <p>
+              <strong>Shop with Vanilla Javascript</strong> by <b>ThaoYT</b>
+            </p>
+          </div>
+        </footer>
       </body>
     </html>
   `;
